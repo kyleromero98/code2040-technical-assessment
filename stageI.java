@@ -50,7 +50,6 @@ public class ReverseString {
         ResponseHandler<String> responseHandler = new BasicResponseHandler();
 
         JSONObject jsonObject = new JSONObject();
-
             jsonObject.put("token", token);
 
         HttpPost httpPost = new HttpPost(requestUrl);
