@@ -23,7 +23,7 @@ public class ReverseString {
 
         try
         {
-            toReverse = reverseString.requestString(reverseString.getUserToken());
+            toReverse = reverseString.requestString(reverseString.getUserToken()); 
         }
         catch (Exception e)
         {
